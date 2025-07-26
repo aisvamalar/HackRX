@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Logs and cache
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+.cache/
+*.pid
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+
+# Python egg
+*.egg-info/
+.eggs/
+
+# FAISS index files (if persisted)
+*.faiss
+*.index
+
+# PDF files (if generated or downloaded)
+*.pdf
+
+# PyTest cache
+.pytest_cache/
+
+# Uvicorn reload artifacts
+reload.db
+
+# Docker files
+*.tar
+*.img
+*.container
+*.sock
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Jupyter (if any notebooks used for testing)
+.ipynb_checkpoints/
+
+# Data folders
+us_census/
+
+# Node modules (if any frontend integration)
+node_modules/
